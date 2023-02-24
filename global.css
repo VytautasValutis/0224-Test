@@ -1,7 +1,122 @@
 :root {
-    --main-back-color: #E5E5E5;
-    --hover-back-color: #F7F6FF;
-    --home-icon-color: #02577A;
-    --icon-color: #C4C4C4;
+    --h-f-back-color: #74C69D;
+    --main-back-color: #F5F5F5;
 }
 
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.menu {
+    float: right;
+    line-height: 24px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
+}
+.header {
+    background-color: var(--h-f-back-color);
+    width: 100%;
+}
+
+.logo-pic {
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+.logo-txt {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.main-img {
+   width: 100%;
+}
+.head-p1 {
+    color: #fff;
+}
+.head-p2 {
+    color: #fff;
+}
+.head-p3 {
+    color: #fff;
+}
+.learn.head-b {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin-left: 10px;
+}
+.center {
+    text-align: center;
+}
+.part1 {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.part2 {
+    font-family: "Crimson Text";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.part3 {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.logai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 68px;
+}
+.learn {
+    width: 170px;
+    height: 48px;
+    background-color: #212529;
+    color: #fff;
+    margin: 55px 0 55px;
+    margin-left: calc(50% - 85px);
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.learn:hover {
+    cursor: pointer;
+}
+.footer {
+    background-color: var(--h-f-back-color);
+    height: 125px;
+    line-height: 125px;
+}
+
+.footer > a:first-child {
+    margin-left: 130px;
+}
+.link {
+   text-decoration: none;
+   margin-right: 20px;
+}
+.link:hover {
+    cursor: pointer;
+}
+.copyright {
+    float: right;
+    margin-top: 0;
+    margin-right: 130px;
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
