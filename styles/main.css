@@ -1,0 +1,20 @@
+.header {
+    background-color: var(--h-f-back-color);
+    width: 100%;
+}
+.logo-pic {
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.logo-txt {
+    display:inline-block;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #fff;
+}
+.main-img {
+    min-width: 645px;
+}
