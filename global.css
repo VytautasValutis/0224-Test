@@ -9,6 +9,10 @@ body {
 }
 .menu {
     float: right;
+    line-height: 24px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
 }
 .header {
     background-color: var(--h-f-back-color);
@@ -20,6 +24,7 @@ body {
     margin-left: 20px;
     margin-top: 20px;
     display: inline-block;
+    
 }
 
 .logo-txt {
@@ -31,17 +36,64 @@ body {
 }
 
 .main-img {
-    max-width: 645px;
+   width: 100%;
+}
+.head-p1 {
+    color: #fff;
+}
+.head-p2 {
+    color: #fff;
+}
+.head-p3 {
+    color: #fff;
+}
+.learn.head-b {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin-left: 10px;
 }
 .center {
     text-align: center;
+}
+.part1 {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.part2 {
+    font-family: "Crimson Text";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.part3 {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 .logai {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 68px;
-
+}
+.learn {
+    width: 170px;
+    height: 48px;
+    background-color: #212529;
+    color: #fff;
+    margin: 55px 0 55px;
+    margin-left: calc(50% - 85px);
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.learn:hover {
+    cursor: pointer;
 }
 .footer {
     background-color: var(--h-f-back-color);
