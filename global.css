@@ -33,6 +33,38 @@ body {
 .main-img {
     max-width: 645px;
 }
+.center {
+    text-align: center;
+}
+.logai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 68px;
+
+}
 .footer {
     background-color: var(--h-f-back-color);
+    height: 125px;
+    line-height: 125px;
+}
+
+.footer > a:first-child {
+    margin-left: 130px;
+}
+.link {
+   text-decoration: none;
+   margin-right: 20px;
+}
+.link:hover {
+    cursor: pointer;
+}
+.copyright {
+    float: right;
+    margin-top: 0;
+    margin-right: 130px;
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
 }
